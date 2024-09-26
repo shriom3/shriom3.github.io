@@ -1,0 +1,143 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f0f8ff;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #007ACC;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ffcd38;
+  transition: color 0.3s ease;
+}
+
+/* Sections */
+.section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+#home {
+  background-color: #007ACC;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.highlight {
+  color: #ffcd38;
+}
+
+.subtext {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffcd38;
+  color: #333;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #ffaf38;
+  transition: background-color 0.3s ease;
+}
+
+/* Project Styles */
+.project {
+  margin: 20px 0;
+}
+
+#projects h2 {
+  margin-bottom: 30px;
+}
+
+.project h3 {
+  color: #007ACC;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input, form textarea {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007ACC;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #005f9e;
+  transition: background-color 0.3s ease;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .socials a {
+  color: #ffcd38;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer .socials a:hover {
+  color: #ffaf38;
+  transition: color 0.3s ease;
+}
